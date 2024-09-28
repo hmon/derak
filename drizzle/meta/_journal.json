@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1727465256237,
+      "tag": "0000_rich_purifiers",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1727489270190,
+      "tag": "0001_wise_silverclaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1727489590636,
+      "tag": "0002_futuristic_captain_america",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1727494581161,
+      "tag": "0003_left_shooting_star",
+      "breakpoints": true
+    }
+  ]
+}

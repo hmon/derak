@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@derak/design-system": ["libs/design-system/src/index.ts"],
+      "@derak/design-system/server": ["libs/design-system/src/server.ts"],
+      "@derak/shared-components": ["libs/shared-components/src/index.ts"],
+      "@derak/shared-components/server": [
+        "libs/shared-components/src/server.ts"
+      ],
+      "@derak/shared-hooks": ["libs/shared-hooks/src/index.ts"],
+      "@derak/shared-layouts": ["libs/shared-layouts/src/index.ts"],
+      "@derak/shared-layouts/server": ["libs/shared-layouts/src/server.ts"],
+      "@derak/shared-models": ["libs/shared-models/src/index.ts"],
+      "@derak/shared-utils": ["libs/shared-utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

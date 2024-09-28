@@ -1,0 +1,75 @@
+.article {
+  margin-bottom: 16px;
+}
+
+.articleTitle {
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.articleLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: #090C16;
+}
+
+.commentArea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #F2F2F2;
+
+  input {
+    all: unset;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    transition: border 0.3s ease-in-out;
+    background-color: #fff;
+  }
+
+  textarea {
+    all: unset;
+    padding: 8px;
+    resize: none;
+    height: 60px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    transition: border 0.3s ease-in-out;
+    background-color: #fff;
+  }
+}
+
+.comment {
+  border-bottom: 1px solid #E1E3E4;
+}
+
+.commentCount {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  padding: 4px;
+  border-radius: 100%;
+  background-color: #969696;
+  color: #F2F2F2;
+}
+
+.commentHeadline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.commentAuthor {
+  font-size: 12px;
+}

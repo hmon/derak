@@ -1,0 +1,22 @@
+.button {
+  all: unset;
+  cursor: pointer;
+  padding: .6em 1em;
+  background-color: #3C4ADF;
+  color: #fff;
+  border-radius: 8px;
+  transition-property: background-color, box-shadow;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    background-color: #2c3fcf;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    background-color: #1c2fbf;
+    box-shadow: none;
+  }
+}

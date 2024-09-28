@@ -1,0 +1,39 @@
+.dashboardLayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboardNav {
+  width: 100%;
+  height: 52px;
+  background-color: #EEF0F1;
+  border-bottom: 1px solid #E1E3E4;
+  box-shadow: 0 4px 2px -2px #E1E3E4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &Inner {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.dashboard {
+  width: 100%;
+  padding: 16px 0;
+}
+
+.dashboardTitle {
+  all: unset;
+  margin: 24px 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1a1919;
+
+  &::placeholder {
+    color: darkgrey;
+  }
+}

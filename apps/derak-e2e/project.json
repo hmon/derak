@@ -1,0 +1,9 @@
+{
+  "name": "derak-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/derak-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["derak"],
+  "// targets": "to see all targets run: nx show project derak-e2e --web",
+  "targets": {}
+}

@@ -1,0 +1,15 @@
+.commentForm {
+  display: flex;
+  flex-direction: column;
+
+  p[role="alert"] {
+    font-size: 12px;
+    margin: -4px 0 16px;
+    color: darkred;
+  }
+}
+
+.commentPublish {
+  display: flex;
+  justify-content: flex-end;
+}
